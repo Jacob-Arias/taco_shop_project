@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jacob Arias" />
+    <meta
+      name="describtion"
+      content="A project assigned from the freeCodeCamp.org learn html video in which I need to make a mock taco shop website" />
+    <title>Little Taco Shop</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to The Little Taco Shop</h1>
+      <nav aria-label="navigation">
+        <ul>
+          <li>
+            <a href="#aboutUs"
+              >About <abbr title="Little Taco Shop">LTS</abbr></a
+            >
+          </li>
+          <li>
+            <a href="#menu">Our Menu</a>
+          </li>
+          <li>
+            <a href="hours.html">Our Hours</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="aboutUs">
+        <figure>
+          <img
+            src="imgs/Beef-Tacos.jpg"
+            alt="Picture of tacos from the shop"
+            title="tacos"
+            width="400"
+            height="300" />
+          <figcaption>Tacos from the shop</figcaption>
+        </figure>
+        <hr />
+        <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+        <p>
+          <abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our
+          shop was built from a <strong>love of tacos</strong> 🌮🌮🌮. We hope
+          our shop adds a unique and interesting place to our little town.
+        </p>
+        <br />
+        <h2>Taco Trivia Time!</h2>
+        <aside>
+          <details>
+            <summary>When did tacos first appear in the United States</summary>
+            <p>
+              Jeffrey M. Pilcher, taco historian and professor of history at the
+              University of Minnesota, says the earliest mention of tacos in the
+              United States are in a newspaper in 1905. (Source:
+              <a
+                href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+                >Smithsonian Magazine</a
+              >
+              )
+            </p>
+          </details>
+        </aside>
+      </article>
+      <hr />
+      <article id="menu">
+        <h2>Our Menu</h2>
+        <table>
+          <caption>
+            Our Tacos
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Tacos</th>
+              <th scope="col">Qty</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="3">Crunchy</th>
+              <td>1</td>
+              <td>$2.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$3.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$4.50</td>
+            </tr>
+            <tr>
+              <th scope="row" rowspan="3">Soft</th>
+              <td>1</td>
+              <td>$1.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$2.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$3.25</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Chips &amp; Salsa $2</td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+      <p><a href="#">Back to Top</a></p>
+      <hr />
+      <p>Copyright &copy; The Little Taco Shop</p>
+    </main>
+  </body>
+</html>
